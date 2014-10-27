@@ -1,0 +1,55 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,greek-ext);
+*{
+	margin:0;
+	padding:0;
+}
+#wrapper{
+	margin: 0 auto;
+	width: 100%
+}
+.product {
+	border: 1px solid #ddd;
+	width: 214px;
+	margin: 15px;
+	float: left;
+}
+
+.product-image {
+	text-align: center;
+	margin-top: 5px;
+}
+h3.product-name {
+	margin: 10px 5px
+}
+h3.product-name a {
+	text-decoration: none;
+	color: #707070;
+	font-family: 'Open Sans', sans-serif;
+}
+p.product-info {
+	margin-left: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+p.product-price {
+	margin-right: 8px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: right;
+	font-weight: 700;
+	font-size: 22px;
+	color: #707070;
+}
+.buttonRight {
+	padding: 5px;
+}
+.buton {
+	padding: 10px;
+	background: #ddd;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #707070;
+	font-weight: 600;
+	cursor: pointer;
+}
