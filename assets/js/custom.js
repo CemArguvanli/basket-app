@@ -66,9 +66,7 @@ function addEvent(element, event, fn){
     element.addEventListener(event, listenHandler, false);
   } else if (element.attachEvent) {
     element.attachEvent ("on" + type, fn);
-  } /*else {
-    element.attachEvent("on" + event, attachHandler);
-  }*/
+  }
 }
 
 function delegateButtonEvents(){
