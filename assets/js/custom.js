@@ -1,21 +1,3 @@
-/*
-var productOne = new Array ("T-shirt ", 5.99);
-var productTwo = new Array ("Pants ", 5.99);
-
-for (var i = 0; i < productOne.length; i++){
-	document.write(productOne[i]);
-}
-
-
-document.write("<br>")
-
-var derslistesi = new Array("XHTML ", "java ", "javascript ", "HTML5 ", 15 );
- 
-for (var i=0;i<derslistesi.length;i++){
-	document.write(derslistesi[i]);
-}
-*/
-
 var products = [
 	{
 		name : "T-shirt",
